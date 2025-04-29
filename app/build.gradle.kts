@@ -50,6 +50,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.firebase.firestore.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -66,5 +67,7 @@ dependencies {
     implementation("com.google.firebase:firebase-auth-ktx:22.3.0")
     implementation("com.google.android.gms:play-services-auth:21.0.0")
     implementation ("androidx.activity:activity-compose:1.7.2")
+    implementation ("com.google.accompanist:accompanist-permissions:0.32.0")
+    implementation("com.google.firebase:firebase-storage-ktx")
 }
 apply(plugin = "com.google.gms.google-services")
